@@ -66,17 +66,7 @@ Log-rank test is carried out to analyze churning probabilities group wise and to
 
   <img width="528" height="373" alt="image" src="https://github.com/user-attachments/assets/e14b64dc-4db1-4e03-ade7-3e1acc913ef8" />
 <img width="544" height="370" alt="image" src="https://github.com/user-attachments/assets/944a5e94-8ad3-4671-9826-ee9288e34669" />
-<img width="550" height="379" alt="image" src="https://github.com/user-attachments/assets/7dd164a8-03f9-4e7b-a7c5-157b6e7c7ae5" />
-<img width="535" height="370" alt="image" src="https://github.com/user-attachments/assets/af2e64f5-c869-41c4-8d20-6f2fd64ecbef" />
-<img width="520" height="370" alt="image" src="https://github.com/user-attachments/assets/7d7d3911-d53d-47bc-b0a2-09900b88ff5c" />
-<img width="544" height="385" alt="image" src="https://github.com/user-attachments/assets/5006fadd-26ce-4c17-99c0-d7d709190424" />
-<img width="528" height="388" alt="image" src="https://github.com/user-attachments/assets/e5674c17-8b75-468c-b6fd-83c5ab07c606" />
-<img width="544" height="388" alt="image" src="https://github.com/user-attachments/assets/dca81f4a-be33-4934-b3a9-438c06f4cf1d" />
-<img width="552" height="385" alt="image" src="https://github.com/user-attachments/assets/69aaa249-a5c4-4062-9778-ab005995b390" />
- <img width="549" height="394" alt="image" src="https://github.com/user-attachments/assets/14162b0b-e992-4413-bc95-bc9958dd72dc" />
-<img width="552" height="391" alt="image" src="https://github.com/user-attachments/assets/78b3f985-ff0a-4149-a34e-c944d1c89ac0" />
-<img width="565" height="394" alt="image" src="https://github.com/user-attachments/assets/b4197624-e410-4a05-8de5-b1c9c88e1789" />
-
+ 
 From above graphs we can conclude following:
 
 Customer's Gender and the phone service type are not indictive features and their p value of log rank test is above threshold value 0.05.
@@ -165,9 +155,6 @@ Partial dependence plot is used to see how churning probability changes across t
  
 <img width="1269" height="802" alt="image" src="https://github.com/user-attachments/assets/314e70f3-3af8-447b-93db-291c4746c96a" />
 <img width="1348" height="792" alt="image" src="https://github.com/user-attachments/assets/743ccc0d-6485-4eba-9026-3e953a43f245" />
-<img width="1339" height="804" alt="image" src="https://github.com/user-attachments/assets/849bb4fa-1196-4718-8454-a7634436893d" />
-<img width="1344" height="796" alt="image" src="https://github.com/user-attachments/assets/78eb7e77-e225-4279-9fa4-45e2c5b55289" />
-
  
 
 Shap values (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. In below plot we can see that why a particual customer's churning probability is less than baseline value and which features are causing them.
