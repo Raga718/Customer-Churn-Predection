@@ -155,7 +155,7 @@ Permutation Importance shows feature importance by randomly shuffling feature va
 Partial dependence plot is used to see how churning probability changes across the range of particular feature. For example, in below graph of tenure group, the churn probability decreases at a higher rate if a person is in tenure group 2 compared to 1.
  
 <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/314e70f3-3af8-447b-93db-291c4746c96a" />
-<img width="1348" height="792" alt="image" src="https://github.com/user-attachments/assets/743ccc0d-6485-4eba-9026-3e953a43f245" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/743ccc0d-6485-4eba-9026-3e953a43f245" />
  
 
 Shap values (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. In below plot we can see that why a particual customer's churning probability is less than baseline value and which features are causing them.
