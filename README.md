@@ -150,7 +150,7 @@ We can explain and understand the Random forest model using explainable AI modul
 Permutation Importance shows feature importance by randomly shuffling feature values and measuring how much it degrades our performance.
  
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/adba33c6-c06d-49ad-86d1-69aba42816b6" />
-<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/db5e66c5-8abc-4a29-84ea-245f266481d2" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/db5e66c5-8abc-4a29-84ea-245f266481d2" />
 
 Partial dependence plot is used to see how churning probability changes across the range of particular feature. For example, in below graph of tenure group, the churn probability decreases at a higher rate if a person is in tenure group 2 compared to 1.
  
