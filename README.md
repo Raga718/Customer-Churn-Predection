@@ -64,8 +64,7 @@ Log-Rank Test:
 
 Log-rank test is carried out to analyze churning probabilities group wise and to find if there is statistical significance between groups. The plots show survival curve group wise.
 
-  <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/e14b64dc-4db1-4e03-ade7-3e1acc913ef8" />
-<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/944a5e94-8ad3-4671-9826-ee9288e34669" />
+  <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/e14b64dc-4db1-4e03-ade7-3e1acc913ef8" />    <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/944a5e94-8ad3-4671-9826-ee9288e34669" />
  
 From above graphs we can conclude following:
 
