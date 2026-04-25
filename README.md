@@ -79,13 +79,13 @@ If customer's paying method is automatic, he or she is less likely to churn. The
 
 Survival Regression: I use cox-proportional hazard model to perform survival regression analysis on customer data. This model is used to relate several risk factors or exposures simultaneously to survival time. In a Cox proportional hazards regression model, the measure of effect is the hazard rate, which is the risk or probability of suffering the event of interest given that the participant has survived up to a specific time. The model fits the data well and the coefficients are shown below.
 
-<img width="1185" height="637" alt="image" src="https://github.com/user-attachments/assets/4b9e6a0a-6cc8-4a60-8d18-1ef6f3236389" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/4b9e6a0a-6cc8-4a60-8d18-1ef6f3236389" />
 
 
 Using this model we can calculate the survival curve and hazard curve of any customer as shown below. These plots are useful to know the remaining life of a customer.
 
- <img width="594" height="414" alt="image" src="https://github.com/user-attachments/assets/65b82a5e-a2bd-4c64-b335-8b67293133a5" />
-<img width="597" height="414" alt="image" src="https://github.com/user-attachments/assets/c6e484ef-e8c6-4d01-afd8-85f3068d5b4c" />
+ <img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/65b82a5e-a2bd-4c64-b335-8b67293133a5" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/c6e484ef-e8c6-4d01-afd8-85f3068d5b4c" />
 
 
 Customer Lifetime Value:
@@ -99,14 +99,14 @@ I aim to implement a machine learning model to accurately predict if the custome
 
 Analysis
 Churn and Tenure Relationship:
-<img width="1294" height="657" alt="image" src="https://github.com/user-attachments/assets/045c5987-94c2-45d6-bb3d-57356de52c4a" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/045c5987-94c2-45d6-bb3d-57356de52c4a" />
 
 
 
 As we can see the higher the tenure, the lesser the churn rate. This tells us that the customer becomes loyal with the tenure.
 
 Tenure Distrbution by Various Services:
-<img width="523" height="373" alt="image" src="https://github.com/user-attachments/assets/24c6c866-204d-4e73-8f70-6febd2bd6b7b" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/24c6c866-204d-4e73-8f70-6febd2bd6b7b" />
 
 
 
@@ -121,13 +121,13 @@ Many of the people of who opt for month-to-month Contract choose Fiber optic as 
 
 Payment method By Contract Type:
 
-<img width="997" height="445" alt="image" src="https://github.com/user-attachments/assets/67b45811-7c17-4b86-963c-25244a8c95bb" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/67b45811-7c17-4b86-963c-25244a8c95bb" />
 
 
 People having month-to-month contract prefer paying by Electronic Check mostly or mailed check. The reason might be short subscription cancellation process compared to automatic payment.
 
 Monthly Charges:
-<img width="543" height="361" alt="image" src="https://github.com/user-attachments/assets/9954578e-27f6-4834-9792-b32874951f22" />
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/9954578e-27f6-4834-9792-b32874951f22" />
 
 
 
@@ -138,8 +138,8 @@ For the modelling, I will use tress based Ensemble method as we do not have line
 
 The final model resulted in 0.62 F1 score and 0.85 ROC-AUC. The resulting plots can be seen below.
 
- <img width="1095" height="534" alt="image" src="https://github.com/user-attachments/assets/2f36b5d6-d188-41d3-becd-1eafb26ddfbc" />
-<img width="1108" height="802" alt="image" src="https://github.com/user-attachments/assets/7b38f6a5-94ee-44b0-9383-9787a55d9f71" />
+ <img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/2f36b5d6-d188-41d3-becd-1eafb26ddfbc" />
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7b38f6a5-94ee-44b0-9383-9787a55d9f71" />
 
 
 From the feature importance plot, we can see which features govern the customer churn.
@@ -149,12 +149,12 @@ We can explain and understand the Random forest model using explainable AI modul
 
 Permutation Importance shows feature importance by randomly shuffling feature values and measuring how much it degrades our performance.
  
-<img width="577" height="696" alt="image" src="https://github.com/user-attachments/assets/adba33c6-c06d-49ad-86d1-69aba42816b6" />
-<img width="579" height="354" alt="image" src="https://github.com/user-attachments/assets/db5e66c5-8abc-4a29-84ea-245f266481d2" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/adba33c6-c06d-49ad-86d1-69aba42816b6" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/db5e66c5-8abc-4a29-84ea-245f266481d2" />
 
 Partial dependence plot is used to see how churning probability changes across the range of particular feature. For example, in below graph of tenure group, the churn probability decreases at a higher rate if a person is in tenure group 2 compared to 1.
  
-<img width="1269" height="802" alt="image" src="https://github.com/user-attachments/assets/314e70f3-3af8-447b-93db-291c4746c96a" />
+<img width="700" height="400" alt="image" src="https://github.com/user-attachments/assets/314e70f3-3af8-447b-93db-291c4746c96a" />
 <img width="1348" height="792" alt="image" src="https://github.com/user-attachments/assets/743ccc0d-6485-4eba-9026-3e953a43f245" />
  
 
