@@ -52,7 +52,7 @@ What is the survival and Hazard curve of a specific customer?
 What is the expected lifetime value of a customer?
 Kaplan-Meier Survival Curve:
 
-<img width="534" height="372" alt="image" src="https://github.com/user-attachments/assets/0393663b-814b-449c-929d-49e3acc9d047" />
+<img width="400" height="280" alt="image" src="https://github.com/user-attachments/assets/0393663b-814b-449c-929d-49e3acc9d047" />
 
 
 From above graph, we can say that
